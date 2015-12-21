@@ -31,7 +31,7 @@ $ twig-test-server -t ~/Documents/index.twig -d ~/Documents/data.json # Use file
 
 ## Requires
 
-###JSON File: [data.json]**
+###JSON File: [data.json]
 
 A well formatted [JSON object](http://www.json.org/)
 
@@ -41,7 +41,7 @@ A well formatted [JSON object](http://www.json.org/)
 { "foo": "bar" }
 ```
 
-###Twig File: [index.twig]**
+###Twig File: [index.twig]
 
 A well formatted [Twig template](http://twig.sensiolabs.org/documentation)
 
