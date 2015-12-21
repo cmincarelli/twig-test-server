@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+'use strict';
+
+process.title = 'twig-test-server';
+var server = require('../lib');
+
+server.start();

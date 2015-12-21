@@ -1,0 +1,27 @@
+{
+  "name": "Twig-Test-Server",
+  "version": "1.0.0",
+  "description": "A Twig rendering server, for testing twig files against a json data source. Simply drop a twig file and json file in the same directory and run the server to see the results.",
+  "main": "lib/index.js",
+  "bin": "bin/twig-test-server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmincarelli/twig-test-server.git"
+  },
+  "author": "Christopher Mincarelli",
+  "license": "Apache",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "express": "^4.13.3",
+    "twig": "^0.8.2",
+    "yargs": "^3.31.0"
+  },
+  "homepage": "https://github.com/cmincarelli/twig-test-server#readme",
+  "files": [
+    "bin",
+    "lib"
+  ]
+}
