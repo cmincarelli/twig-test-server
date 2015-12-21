@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A Twig rendering server, for testing twig files against a json data source. Simply drop a twig file and json file in the same directory and run the server to see the results.",
   "main": "lib/index.js",
-  "bin": "bin/twig-test-server",
+  "bin": "bin/tts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
