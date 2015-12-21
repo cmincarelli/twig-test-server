@@ -22,6 +22,8 @@
   "homepage": "https://github.com/cmincarelli/twig-test-server#readme",
   "files": [
     "bin",
-    "lib"
+    "lib",
+    "data",
+    "config"
   ]
 }
