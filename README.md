@@ -46,7 +46,7 @@ A well formatted TWIG template.
 ```twig
 <html>
 <body>
-	{{Foo}}
+	{{foo}}
 </body>
 </html>
 ```
