@@ -55,5 +55,23 @@ A well formatted [Twig template](http://twig.sensiolabs.org/documentation)
 </html>
 ```
 
+##Notes for Windows users:
+
+###Install NodeJS
+
+See the instructions here: [https://desktop.github.com/](https://desktop.github.com/)
+
+###Install GitHub Desktop
+
+See the instructions here: [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+
+###Open GitHub Shell
+
+```bash
+$ npm install -g cmincarelli/twig-test-server
+
+$ tts -p 8888 ./data # Where data is a folder containing and index.twig and data.json file
+```
+
 ***Comments, suggestions? Contact me!***
 
