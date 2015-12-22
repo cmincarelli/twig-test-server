@@ -7,6 +7,7 @@
   "directories": {
     "bin": "./bin"
   },
+  "bin": "./bin/tts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
