@@ -16,17 +16,17 @@ By default the server runs on port 9999 and looks for index.twig and data.json i
 
 ## Usage
 
-`twig-test-server [--port] ( [path] or [--template] [--data] )`
+`tts [--port] ( [path] or [--template] [--data] )`
 
 ## Example
 
 ```bash
-$ npm install -g chrism-dp/twig-template-server
-$ twig-test-server --port 8888 . # Use 8888, look for default files in the current directory
+$ npm install -g cmincarelli/twig-test-server
+$ tts --port 8888 . # Use 8888, look for default files in the current directory
 
-$ twig-test-server ./data # look for default files in the data directory
+$ tts ./data # look for default files in the data directory
 
-$ twig-test-server -t ~/Documents/index.twig -d ~/Documents/data.json # Use file from ~/Documents
+$ tts -t ~/Documents/index.twig -d ~/Documents/data.json # Use file from ~/Documents
 ```
 
 ## Requires
